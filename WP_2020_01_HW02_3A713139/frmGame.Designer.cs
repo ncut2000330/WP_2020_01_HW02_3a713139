@@ -30,8 +30,8 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.picResult = new System.Windows.Forms.PictureBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.picResult = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picResult)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,17 +57,6 @@
             this.label1.Text = "歷程";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // picResult
-            // 
-            this.picResult.Image = global::WP_2020_01_HW02_3A713139.Properties.Resources._003;
-            this.picResult.Location = new System.Drawing.Point(393, 118);
-            this.picResult.Name = "picResult";
-            this.picResult.Size = new System.Drawing.Size(277, 255);
-            this.picResult.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picResult.TabIndex = 2;
-            this.picResult.TabStop = false;
-            this.picResult.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(148, 101);
@@ -77,13 +66,23 @@
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
+            // picResult
+            // 
+            this.picResult.Image = global::WP_2020_01_HW02_3A713139.Properties.Resources._52;
+            this.picResult.Location = new System.Drawing.Point(439, 133);
+            this.picResult.Name = "picResult";
+            this.picResult.Size = new System.Drawing.Size(266, 220);
+            this.picResult.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picResult.TabIndex = 4;
+            this.picResult.TabStop = false;
+            // 
             // frmGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.picResult);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "frmGame";
@@ -99,8 +98,8 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox picResult;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.PictureBox picResult;
     }
 }
 
