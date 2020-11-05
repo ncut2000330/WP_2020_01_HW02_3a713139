@@ -36,6 +36,8 @@ namespace WP_2020_01_HW02_3A713139
         {
             int index = new Random().Next(3);//模擬隨機產生 一個值;
             picResult.Image = list[index];
+            index++;
+            richTextBox1.Text = "第:" + index +"張";
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -44,8 +46,8 @@ namespace WP_2020_01_HW02_3A713139
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
+        {   
+            
         }
 
         
